@@ -1,6 +1,6 @@
-# Poke Stick Studio — v0.1.1
+# Poke Stick Studio — v0.1.2
 
-A buildless, responsive static studio website for GitHub Pages. HTML5, CSS3, original SVG favicon and CSS illustrations. No JavaScript, dependencies, tracking, remote fonts, cookies, or build step.
+A buildless, responsive static studio website for GitHub Pages. HTML5, CSS3, original SVG studio favicon and existing Popposite branding. No JavaScript, dependencies, tracking, remote fonts, cookies, or build step.
 
 ## Files
 
@@ -36,6 +36,10 @@ python -m http.server 8000 --bind 127.0.0.1
 ```
 
 Then open `http://127.0.0.1:8000/PokeStickStudio/`. The repository folder must be named `PokeStickStudio` for that exact path.
+
+## Branding
+
+`assets/branding/` contains resized web copies of the existing Popposite logo and Android launcher artwork. These are used on the studio homepage and game page. No new artwork was generated. The studio favicon remains distinct from the game branding.
 
 ## Before the game launches
 
