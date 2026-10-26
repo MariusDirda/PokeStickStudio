@@ -1,13 +1,14 @@
-# Poke Stick Studio — v0.1.0
+# Poke Stick Studio — v0.1.1
 
 A buildless, responsive static studio website for GitHub Pages. HTML5, CSS3, original SVG favicon and CSS illustrations. No JavaScript, dependencies, tracking, remote fonts, cookies, or build step.
 
 ## Files
 
 - `index.html`: studio homepage and contact.
-- `games/popposite.html`: game overview and labeled screenshot placeholders.
+- `games/popposite.html`: game overview and real Unity Editor screenshot gallery.
 - `privacy/popposite.html`: public, pre-release privacy policy.
 - `assets/style.css`, `assets/favicon.svg`: shared original presentation.
+- `assets/screenshots/`: JPEG web copies of pre-release Unity Editor captures, with full-size image links.
 - `.nojekyll`: bypass Jekyll processing.
 - `PokeStickStudio-v0.1.0-report.md`: implementation, verification, and developer review list.
 
@@ -40,4 +41,4 @@ Then open `http://127.0.0.1:8000/PokeStickStudio/`. The repository folder must b
 
 Review every explicitly marked item in the privacy policy and the versioned report. In particular, confirm the release advertising configuration, target age audience, legal operator details, distribution regions, and support email retention period. The reviewed Unity configuration disables production ad requests and Firebase Analytics. Re-review after changing SDK settings or enabling production ads. No Unity source, identifiers, configuration, player saves, or credentials belong in this repository.
 
-Replace screenshot placeholders only with approved real game screenshots, including useful alt text. Keep the Google Play button disabled until a real public store listing exists, then use its verified URL. Preserve reduced-motion support and keyboard navigation when editing.
+The gallery contains real Unity Editor UI captures from isolated presentation fixtures, not physical Android captures or claims about particular campaign outcomes. See the v0.1.1 report for provenance. Refresh these with new release captures when the UI changes. Keep the Google Play button disabled until a real public store listing exists, then use its verified URL. Preserve reduced-motion support and keyboard navigation when editing.
