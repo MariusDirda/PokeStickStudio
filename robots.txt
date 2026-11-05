@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /PokeStickStudio/
+
+Sitemap: https://mariusdirda.github.io/PokeStickStudio/sitemap.xml

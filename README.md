@@ -27,6 +27,14 @@ All local navigation/assets use relative paths and support `/PokeStickStudio/`. 
 
 The GitHub connector can write repository files but has no Pages-settings mutation tool. Publishing the repository does not by itself enable Pages. The settings steps above may need to be completed by the repository owner.
 
+## Search indexing and Google Search Console
+
+- `sitemap.xml` lists the three public pages using their canonical URLs. Update it when adding or removing pages or changing the site domain.
+- `robots.txt` allows the project path and advertises the sitemap. On GitHub Pages project sites this file is served at `/PokeStickStudio/robots.txt`, but crawlers only use the host-root `/robots.txt`. To make these rules effective, publish them in the root of the separate `MariusDirda/mariusdirda.github.io` repository if you control that site. The project file alone does not control crawling.
+- `google9c9bb32c6f624971.html` is the Google Search Console ownership verification file. Keep its filename and contents unchanged, and retain it after verification.
+
+After deployment, add the URL-prefix property `https://mariusdirda.github.io/PokeStickStudio/` in Google Search Console. Choose HTML file verification, confirm that `https://mariusdirda.github.io/PokeStickStudio/google9c9bb32c6f624971.html` is accessible, then click **Verify**. Submit `https://mariusdirda.github.io/PokeStickStudio/sitemap.xml` under **Sitemaps**. A Domain property requires DNS verification instead.
+
 ## Local preview
 
 No server is needed for basic navigation: open `index.html`. To test the production base path, serve the parent of the repository directory on localhost and open `/PokeStickStudio/`. For example, from the parent directory with Python installed:
